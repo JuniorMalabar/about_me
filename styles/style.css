@@ -30,12 +30,15 @@ a.nav-link.active {
     border-bottom: 1px solid var(--green);
 }
 /* index */
-.main {
+.main,
+.aboutme,
+.myfriends {
     margin-top: 25px;
     height: 75vh;
 }
-.main h1 {
-    font-family: Nunito;
+.main h1,
+.aboutme h1,
+.myfriends h1 {
     font-style: normal;
     font-weight: bold;
     font-size: 66px;
@@ -43,34 +46,86 @@ a.nav-link.active {
 
     color: var(--green);
 }
-.main p {
+.main p,
+.aboutme p,
+.myfriends p.friends-main {
     font-style: normal;
     font-weight: 600;
     font-size: 32px;
     line-height: 45px;
+    margin-bottom: 15px;
 
     color: var(--white);
 }
-.main img {
+.main img,
+.aboutme img {
     border-radius: 25px;
     width: -webkit-fill-available;
 }
 @media screen and (max-width: 992px) {
-    .main img {
+    .main img,
+    .aboutme img {
         width: 50%;
         margin-bottom: 25px;
     }
-    .main p {
+    .main p,
+    .aboutme p,
+    .myfriends p {
         margin-bottom: 25px;
     }
 }
 @media screen and (max-width: 576px) {
-    .main h1 {
+    .main h1,
+    .aboutme h1 {
         font-size: 44px;
         line-height: 44px;
     }
-    .main p {
+    .main p,
+    .aboutme p {
         font-size: 22px;
         line-height: 35px;
     }
+}
+/* my friends */
+.family p,
+.friends p {
+    margin: 25px 0;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 400;
+    width: 500px;
+    text-align: justify;
+
+    color: var(--white);
+}
+.family img {
+    border-radius: 25px;
+    height: 590px;
+    width: 500px;
+    margin-bottom: 15px;
+}
+.signed-photo-1 img {
+    position: relative;
+}
+
+.signed-photo-1 h1,
+.signed-photo-1 p {
+    position: absolute;
+}
+.signed-photo-1 h1 {
+    bottom: 340px;
+    right: 58px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 50px;
+}
+.signed-photo-1 p {
+    bottom: 280px;
+    right: -138px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 50px;
+    color: #939571;
 }
