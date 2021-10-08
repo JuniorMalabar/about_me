@@ -52,6 +52,7 @@ a.nav-link.active {
     color: var(--white);
 }
 .main img {
+    border-radius: 25px;
     width: -webkit-fill-available;
 }
 @media screen and (max-width: 992px) {
