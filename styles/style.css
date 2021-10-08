@@ -1,0 +1,75 @@
+/* colors */
+:root {
+    --bgc: #693274;
+    --white: #ffffff;
+    --green: #cbf591;
+}
+
+body {
+    background-color: var(--bgc);
+    font-family: "Nunito", sans-serif;
+}
+/* nav */
+.navbar-dark .navbar-toggler {
+    color: var(--green);
+}
+.navbar-brand img {
+    height: 70px;
+}
+a.nav-link {
+    width: fit-content;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 19px;
+    text-align: center;
+
+    color: var(--white) !important;
+}
+a.nav-link.active {
+    border-bottom: 1px solid var(--green);
+}
+/* index */
+.main {
+    margin-top: 25px;
+    height: 75vh;
+}
+.main h1 {
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 66px;
+    line-height: 65px;
+
+    color: var(--green);
+}
+.main p {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 45px;
+
+    color: var(--white);
+}
+.main img {
+    width: -webkit-fill-available;
+}
+@media screen and (max-width: 992px) {
+    .main img {
+        width: 50%;
+        margin-bottom: 25px;
+    }
+    .main p {
+        margin-bottom: 25px;
+    }
+}
+@media screen and (max-width: 576px) {
+    .main h1 {
+        font-size: 44px;
+        line-height: 44px;
+    }
+    .main p {
+        font-size: 22px;
+        line-height: 35px;
+    }
+}
