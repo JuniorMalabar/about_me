@@ -4,7 +4,15 @@
     --white: #ffffff;
     --green: #bef96e;
 }
-
+@media (min-width: 1200px) {
+    .container,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container-xl {
+        max-width: 1350px;
+    }
+}
 body {
     background-color: var(--bgc);
     font-family: "Nunito", sans-serif;
@@ -34,13 +42,15 @@ a.nav-link.active {
 /* index */
 .main,
 .aboutme,
-.myfriends {
+.myfriends,
+.group {
     margin-top: 25px;
     height: 75vh;
 }
 .main h1,
 .aboutme h1,
-.myfriends h1 {
+.myfriends h1,
+.group h1 {
     font-style: normal;
     font-weight: bold;
     font-size: 66px;
@@ -50,7 +60,8 @@ a.nav-link.active {
 }
 .main p,
 .aboutme p,
-.myfriends p.friends-main {
+.myfriends p.friends-main,
+.group p {
     font-style: normal;
     font-weight: 600;
     font-size: 32px;
@@ -60,7 +71,8 @@ a.nav-link.active {
     color: var(--white);
 }
 .main img,
-.aboutme img {
+.aboutme img,
+.group img {
     border-radius: 25px;
     width: -webkit-fill-available;
 }
@@ -100,7 +112,7 @@ a.nav-link.active {
 }
 .family p {
     margin: 25px 0;
-    width: 365px;
+    width: 490px;
 }
 @media screen and (max-width: 1200px) {
     .family p {
