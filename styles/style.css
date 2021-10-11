@@ -43,7 +43,8 @@ a.nav-link.active {
 .main,
 .aboutme,
 .myfriends,
-.group {
+.group,
+.hobbies {
     margin-top: 25px;
     height: 75vh;
 }
