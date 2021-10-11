@@ -17,6 +17,8 @@ body {
     height: 60px;
 }
 a.nav-link {
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
     width: fit-content;
     font-style: normal;
     font-weight: bold;
