@@ -2,7 +2,7 @@
 :root {
     --bgc: #693274;
     --white: #ffffff;
-    --green: #cbf591;
+    --green: #bef96e;
 }
 
 body {
@@ -89,43 +89,33 @@ a.nav-link.active {
 /* my friends */
 .family p,
 .friends p {
-    margin: 25px 0;
     font-size: 20px;
     line-height: 30px;
     font-weight: 400;
-    width: 500px;
     text-align: justify;
 
     color: var(--white);
 }
-.family img {
+.family p {
+    margin: 25px 0;
+    width: 365px;
+}
+@media screen and (max-width: 1200px) {
+    .family p {
+        width: 100%;
+    }
+}
+.family img,
+.friends img {
     border-radius: 25px;
-    height: 590px;
-    width: 500px;
+    height: 405px;
+    width: 305px;
     margin-bottom: 15px;
 }
-.signed-photo-1 img {
-    position: relative;
+.family img {
+    height: 445px;
+    width: 360px;
 }
-
-.signed-photo-1 h1,
-.signed-photo-1 p {
-    position: absolute;
-}
-.signed-photo-1 h1 {
-    bottom: 340px;
-    right: 58px;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 40px;
-    line-height: 50px;
-}
-.signed-photo-1 p {
-    bottom: 280px;
-    right: -138px;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 24px;
-    line-height: 50px;
-    color: #939571;
+.friends .container-fluid {
+    padding: 0;
 }
