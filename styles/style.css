@@ -50,7 +50,8 @@ a.nav-link.active {
 .main h1,
 .aboutme h1,
 .myfriends h1,
-.group h1 {
+.group h1,
+.hobbies h1 {
     font-style: normal;
     font-weight: bold;
     font-size: 66px;
@@ -61,7 +62,8 @@ a.nav-link.active {
 .main p,
 .aboutme p,
 .myfriends p.friends-main,
-.group p {
+.group p,
+.hobbies p {
     font-style: normal;
     font-weight: 600;
     font-size: 32px;
@@ -72,7 +74,8 @@ a.nav-link.active {
 }
 .main img,
 .aboutme img,
-.group img {
+.group img,
+.hobbies img {
     border-radius: 25px;
     width: -webkit-fill-available;
 }
@@ -82,26 +85,31 @@ a.nav-link.active {
         width: 50%;
         margin-bottom: 25px;
     }
-    .group img {
+    .group img,
+    .hobbies img {
         margin-bottom: 25px;
     }
     .main p,
     .aboutme p,
     .myfriends p,
-    .group p {
+    .group p,
+    ,
+    .hobbies p {
         margin-bottom: 25px;
     }
 }
 @media screen and (max-width: 576px) {
     .main h1,
     .aboutme h1,
-    .group h1 {
+    .group h1,
+    .hobbies h1 {
         font-size: 44px;
         line-height: 44px;
     }
     .main p,
     .aboutme p,
-    .group p {
+    .group p,
+    .hobbies p {
         font-size: 22px;
         line-height: 35px;
     }
